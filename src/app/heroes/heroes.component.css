@@ -65,6 +65,37 @@
     color: #0715d4;
 }
 
+.add-button {
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    background-color: #3c9aff;
+    color: #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.add-button:hover {
+    color: white;
+    background-color: #009adb;
+}
+
+button.delete {
+    position: absolute;
+    left: 210px;
+    top: 5px;
+    background-color: rgb(255, 103, 103);
+    border-color: #fafafa;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 1px 10px 3px 10px;
+}
+
+button.delete:hover {
+    background-color: #ff0000;
+    color: white;
+}
+
 /* .selected-hero {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #0715d4;
